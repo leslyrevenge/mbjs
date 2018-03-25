@@ -1,8 +1,22 @@
-// variable name greet
-// greet your friend.
+/*
+****** Lesson Preview *****
 
-var greet = "Hello Alice";
-console.log(greet);
+function greet(){
+    console.log("Sak Pase World");
+}
+greet();
 
-var age;
-console.log(age);
+*/
+
+function greet(){
+    console.log("Sak Pase World");
+}
+greet();
+
+// challenge: write a functiont that console log, how you doing?
+
+function howAreYou(){
+    console.log("Nalsasin");
+}
+
+howAreYou();
