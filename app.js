@@ -1,19 +1,19 @@
-/**** Lesson: Arrays */
+/**** Lesson: Subtraction */
 
-var cities = {
-    UnitedStates: ["Washington DC", "Killeen", "Atlanta"],
-    Nigeria: ["Abuja", "Lagos"],
-    Venezuela: "Caracas"
+function myAge(){
+    var yob = 1995;
+    var year = 2018;
+    var myAge = year - yob;
+    console.log(myAge);
 }
 
-console.log(cities.UnitedStates[2]);
+myAge();
 
-//Challenge: create an object that lists countries and their capital. 
+//Challenge: create an array, inside a function, that console log your top three favorite colors. 
 
-var capital = {
-    UnitedStates: "Washington DC",
-    Nigeria: "Abuja",
-    Venezuela: "Caracus"
+function myColors() {
+    var favColors = ["Brown", "Blue", "Green"]
+    console.log(favColors[2]);
 }
 
-console.log(capital.Nigeria);
+myColors();
