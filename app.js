@@ -1,14 +1,19 @@
-/**** Lesson: Object */
-var objMe = {
-    name: "Lesly",
-    city: "Port-au-Prince",
-    greeting: "Sak Pase World"
+/**** Lesson: Arrays */
+
+var cities = {
+    UnitedStates: ["Washington DC", "Killeen", "Atlanta"],
+    Nigeria: ["Abuja", "Lagos"],
+    Venezuela: "Caracas"
 }
 
-console.log(objMe.name);
+console.log(cities.UnitedStates[2]);
 
-// challenge: create a (only one) variable that output: your name, your city, and a greeting. Use a comma to separate.
+//Challenge: create an object that lists countries and their capital. 
 
-var aboutMe = "Lesly, Port-au-Prince, Sak Pase World";
-// console.log(aboutMe);
+var capital = {
+    UnitedStates: "Washington DC",
+    Nigeria: "Abuja",
+    Venezuela: "Caracus"
+}
 
+console.log(capital.Nigeria);
