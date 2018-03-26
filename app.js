@@ -1,22 +1,13 @@
-/*
-****** Lesson Preview *****
+/**** Lesson: Var */
 
-function greet(){
-    console.log("Sak Pase World");
-}
-greet();
+var myLocation = "Miami, FL";
 
-*/
+console.log(myLocation);
 
-function greet(){
-    console.log("Sak Pase World");
-}
-greet();
+// Challenge: create a function that console log your city. ex. Port-au-Prince
 
-// challenge: write a functiont that console log, how you doing?
-
-function howAreYou(){
-    console.log("Nalsasin");
+function myCity(){
+    console.log("Port-au-Prince");
 }
 
-howAreYou();
+myCity();
