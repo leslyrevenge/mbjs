@@ -1,10 +1,14 @@
-/**** Lesson: Return */
+/**** Lesson: Function Expression */
 
-//Challenge: create a function that console.log todays year minus the year you graduated high school or about to graduate. 
+//Challenge: create an object, timeline, that have key value for the following: birth year, today year, high school grad year. 
 
-function yearSinceGrad(){
-    return 2018 - 2005;
+var timeline = {
+    birthYear: 1980,
+    todayYear: 2018,
+    gradYear: 1998,
+    gradAge: function(){
+        return 1998 - 1980;
+    }
 }
 
-
-console.log(31 - yearSinceGrad())
+console.log(timeline.gradAge());
