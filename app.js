@@ -1,13 +1,14 @@
-/**** Lesson: Var */
-
-var myLocation = "Miami, FL";
-
-console.log(myLocation);
-
-// Challenge: create a function that console log your city. ex. Port-au-Prince
-
-function myCity(){
-    console.log("Port-au-Prince");
+/**** Lesson: Object */
+var objMe = {
+    name: "Lesly",
+    city: "Port-au-Prince",
+    greeting: "Sak Pase World"
 }
 
-myCity();
+console.log(objMe.name);
+
+// challenge: create a (only one) variable that output: your name, your city, and a greeting. Use a comma to separate.
+
+var aboutMe = "Lesly, Port-au-Prince, Sak Pase World";
+// console.log(aboutMe);
+
